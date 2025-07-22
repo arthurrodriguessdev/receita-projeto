@@ -1,0 +1,1 @@
+#Diz ao python que esse arquivo deve ser considerado como um pacote pelo Python
