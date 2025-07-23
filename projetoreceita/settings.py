@@ -119,7 +119,7 @@ USE_TZ = True
 STATIC_ROOT = os.path.join(BASE_DIR, 'static') #Local onde serão deixado os arquivos estáticos
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'projetoreceita/static ')
+    os.path.join(BASE_DIR, 'projetoreceita/static')
 ] #Define onde estão nossos arquivos estáticos de maneira precisa
 
 # Default primary key field type
