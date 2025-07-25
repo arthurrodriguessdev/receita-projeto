@@ -76,8 +76,11 @@ WSGI_APPLICATION = 'projetoreceita.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql', #Alterado para utilizar o postgres
+        'NAME': 'alura_receita', #Adicionado (nome do banco de dados)
+        'USER': 'postgres', #Adicionado
+        'PASSWORD': 'Ar1801!', #Adicionado
+        'HOST': 'localhost', #Adicionado
     }
 }
 
